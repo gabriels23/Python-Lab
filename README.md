@@ -69,11 +69,6 @@ def main():
 	print(ys)
 	
 # GENERIC ----------------------------------------------------------------------
-# PY - Prelude
-
-# foldl :: (a -> b -> a) -> a -> [b] -> a
-def foldl(f, a, xs):
-	return functools.reduce(f, xs, a);
 
 main()
 ```
