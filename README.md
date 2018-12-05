@@ -15,7 +15,7 @@ Some math and programming experiments.
 - Save file with `.py` extension.
 - Hit `Ctrl+Shift+B` to run code.
 
-### How to writing a simple Python script
+### How to write a simple Python script
 
 Paste this code in Atom (or another text editor). 
 
@@ -38,7 +38,7 @@ main()
 
 ### Code samples
 
-**Calculate vector norm**
+**Calculate vector length**
 ```python
 import functools
 
