@@ -27,11 +27,11 @@ import itertools
 
 # main :: IO ()
 def main():
-	## MAIN CODE GOES HERE
+    # MAIN CODE GOES HERE
 	
 	
 # GENERIC FUNCTIONS ----------------------------------------------------------------------
-## FUNCTIONS GO HERE
+# FUNCTION DEFINITIONS GO HERE
 
 main()
 ```
@@ -44,15 +44,15 @@ import functools
 
 # main :: IO ()
 def main():
-	xs = [1,2,3]
-	print(foldl(lambda acc, x: acc + x * x, 0, xs))
+    xs = [1,2,3]
+    print(foldl(lambda acc, x: acc + x * x, 0, xs))
 	
 # GENERIC ----------------------------------------------------------------------
 # PY - Prelude
 
 # foldl :: (a -> b -> a) -> a -> [b] -> a
 def foldl(f, a, xs):
-	return functools.reduce(f, xs, a);
+    return functools.reduce(f, xs, a);
 
 main()
 ```
@@ -64,9 +64,9 @@ import functools
 
 # main :: IO ()
 def main():
-	xs = [1,2,3]
-	ys = map(lambda x: x*2, xs)
-	print(ys)
+    xs = [1,2,3]
+    ys = map(lambda x: x*2, xs)
+    print(ys)
 	
 # GENERIC ----------------------------------------------------------------------
 
