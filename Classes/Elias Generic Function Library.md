@@ -46,16 +46,16 @@ def map(f, xs):
 
 def filter1(p, xs):
     if (length(xs) == 0):
-    return []
+        return []
     else:
-    if (p(head(xs))):
-    return [head(xs)] + filter(p, tail(xs))
-    else:
-    return filter(p, tail(xs))
+        if (p(head(xs))):
+            return [head(xs)] + filter(p, tail(xs))
+        else:
+            return filter(p, tail(xs))
     
 def filter2(p, xs):
     return [] if length(xs) == 0 else (
-    [head(xs)] + filter(p, tail(xs)) if p(head(xs)) else filter(p, tail(xs))
+        [head(xs)] + filter(p, tail(xs)) if p(head(xs)) else filter(p, tail(xs))
     )
     
 def pred(n):
@@ -77,19 +77,19 @@ def innerProduct(xs):
 # take :: Int -> String -> String
 def take(n):
     return lambda xs: (
-    xs[0:n]
+        xs[0:n]
     if isinstance(xs, list)
-    else list(itertools.islice(xs, n))
+        else list(itertools.islice(xs, n))
     )
 
 # drop :: Int -> [a] -> [a]
 # drop :: Int -> String -> String
 def drop(n):
     def go(xs):
-    if isinstance(xs, list):
-    return xs[n:]
+        if isinstance(xs, list):
+        return xs[n:]
     else:
-    return take(n)(xs)
+        return take(n)(xs)
     return lambda xs: go(xs)
 
 main()
