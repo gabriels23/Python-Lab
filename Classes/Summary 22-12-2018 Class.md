@@ -108,7 +108,7 @@ In python, we are passing `f` as a name, similar to the composition of functions
 
 - Think in terms of values instead of sequences of actions
 
-## List Comprehensions
+## List Comprehensions Examples
 
 ```python
 import functools
