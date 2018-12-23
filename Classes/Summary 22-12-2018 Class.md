@@ -13,9 +13,9 @@ _Conditional statements_
 
 ```python
 if (P(x)):
-	# execute this statement
+    # execute this statement
 else:
-	# execute this statement
+    # execute this statement
 ```
 
 _Conditional expressions_
