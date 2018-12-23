@@ -100,9 +100,8 @@ f(x) = x * x
 ```
 
 In python, we are passing `f` as a name, similar to the composition of functions:
-Resultado de imagen para compose f with g
 
-
+![Compose f with g](https://github.com/gabriels23/Python-Lab/blob/master/Classes/compose.jpeg?raw=true)
 
 
 ### Tip
