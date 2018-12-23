@@ -96,7 +96,7 @@ Map invocation
 In mathematics, we define a function as:
 
 ```
-f(x) = x*x
+f(x) = x * x
 ```
 
 In python, we are passing `f` as a name, similar to the composition of functions:
