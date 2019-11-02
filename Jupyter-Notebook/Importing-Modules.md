@@ -6,9 +6,9 @@
 
 A structure like this:
   - Folder
-    **__init__.py** [1]
-    file1.py
-    file2.py
+    - **\_\_init\_\_.py** [1]
+    - file1.py
+    - file2.py
 
 Is imported into Jupyter with the following statements [2]
 
@@ -24,4 +24,5 @@ Folder.file1.function1
 ```
 
 [1]: Into **__init__.py**, it's necesarry to import required modules.
+
 [2]: Provided **$PYTHONPATH** enviromental variable is correctly set.
