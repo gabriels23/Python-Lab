@@ -16,7 +16,7 @@ Is imported into Jupyter with the following statements [2]
 import Folder
 ```
 
-### __init.py__
+### __init.py__ contents
 import Folder.file1
 
 
