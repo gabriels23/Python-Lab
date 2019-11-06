@@ -16,6 +16,9 @@ Is imported into Jupyter with the following statements [2]
 import Folder
 ```
 
+### __init.py__
+import Folder.file1
+
 
 To access the required function, `.` syntax should be used, as in:
 
